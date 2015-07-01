@@ -15,6 +15,7 @@
 		C6F4522B1B437B0600400E70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F4522A1B437B0600400E70 /* Images.xcassets */; };
 		C6F4522E1B437B0600400E70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F4522C1B437B0600400E70 /* LaunchScreen.xib */; };
 		C6F4523A1B437B0600400E70 /* Demo01_Git_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F452391B437B0600400E70 /* Demo01_Git_1Tests.m */; };
+		C6F452451B437DEA00400E70 /* TestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F452441B437DEA00400E70 /* TestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		C6F452331B437B0600400E70 /* Demo01-Git-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo01-Git-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F452381B437B0600400E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6F452391B437B0600400E70 /* Demo01_Git_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo01_Git_1Tests.m; sourceTree = "<group>"; };
+		C6F452431B437DEA00400E70 /* TestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGit.h; sourceTree = "<group>"; };
+		C6F452441B437DEA00400E70 /* TestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				C6F4521F1B437B0600400E70 /* AppDelegate.m */,
 				C6F452241B437B0600400E70 /* ViewController.h */,
 				C6F452251B437B0600400E70 /* ViewController.m */,
+				C6F452431B437DEA00400E70 /* TestGit.h */,
+				C6F452441B437DEA00400E70 /* TestGit.m */,
 				C6F452271B437B0600400E70 /* Main.storyboard */,
 				C6F4522A1B437B0600400E70 /* Images.xcassets */,
 				C6F4522C1B437B0600400E70 /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 				C6F452201B437B0600400E70 /* AppDelegate.m in Sources */,
 				C6F452261B437B0600400E70 /* ViewController.m in Sources */,
 				C6F4521D1B437B0600400E70 /* main.m in Sources */,
+				C6F452451B437DEA00400E70 /* TestGit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
